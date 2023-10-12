@@ -5,20 +5,20 @@
 :: A script that will help you keep your steamcmd rust server and oxide mod up to date.
 :: You will need 7z and wget for the automation to work fully.
 
-::SET LOCATION VARIABLES (IMPORTANT)
+:: SET LOCATION VARIABLES (IMPORTANT)
 :: SteamCMD.exe Path (https://developer.valvesoftware.com/wiki/SteamCMD)
 SET steamCmdPath=D:\DedicatedServers\SteamServers\steamcmd.exe
 
 :: Directory to the RUST server.
 SET rustServerPath=D:\DedicatedServers\SteamServers\steamapps\common\rust_dedicated
 
-:: wget.exe Path (https://www.gnu.org/software/wget/) this will allow the script to download the lastest Oxide for RUST.
+:: wget.exe Path (https://www.gnu.org/software/wget/) This will allow the script to download the latest Oxide for RUST.
 SET wgetPath=D:\DedicatedServers\SteamServers\wget.exe
 
-::7z.exe Path (https://7-zip.org/) This will allow the script to extract the Oxide update.
+:: 7z.exe Path (https://7-zip.org/) This will allow the script to extract the Oxide update.
 SET sevenZPath=D:\DedicatedServers\SteamServers\7z.exe
 
-::SET RUST SERVER VARIABLES
+:: SET RUST SERVER VARIABLES
 SET rustServerPort=28015
 SET rustServerLevel="Procedural Map"
 SET rustServerSeed=12345
@@ -40,12 +40,13 @@ SET rustServerLogfile=rustServerlogfile
 cls
 echo.
 echo  --------------------------------------------------------
-echo           PSYSTEC RUST UPDATER AND LAUNCHER v0.1
+echo           PSYSTEC RUST UPDATER AND LAUNCHER v1.1
 echo  --------------------------------------------------------
-echo  Created by Psystec : Discord: https://discord.gg/EyRgFdA
+echo  Created by Psystec.
+echo  Discord: https://discord.gg/EyRgFdA
+evho  GitHub: https://github.com/Psystec/RUST-ServerScript
 echo.
 
-::CHECKS
 IF NOT EXIST %steamCmdPath% (
 echo SteamCMD.exe does not exist. See this link for more information: https://developer.valvesoftware.com/wiki/SteamCMD
 GOTO EXIT
@@ -59,7 +60,6 @@ echo 7z.exe does not exist. See this link for more information: https://7-zip.or
 GOTO EXIT
 )
 
-::DateTimeFormat
 Set mm=%DATE:~5,2%
 Set dd=%DATE:~8,2%
 Set yyyy=%DATE:~-10,4%
