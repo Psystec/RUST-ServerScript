@@ -44,7 +44,7 @@ echo           PSYSTEC RUST UPDATER AND LAUNCHER v1.1
 echo  --------------------------------------------------------
 echo  Created by Psystec.
 echo  Discord: https://discord.gg/EyRgFdA
-evho  GitHub: https://github.com/Psystec/RUST-ServerScript
+echo  GitHub: https://github.com/Psystec/RUST-ServerScript
 echo.
 
 IF NOT EXIST %steamCmdPath% (
