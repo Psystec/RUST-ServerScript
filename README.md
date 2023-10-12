@@ -4,4 +4,4 @@ A Rust script that will keep your server and Oxide up to date. It will also star
 The script can be run from anywhere on your PC.
 
 See the script in action:
-[![See the script in action]](https://youtu.be/0xiFYaVKHNc)
+https://youtu.be/0xiFYaVKHNc
