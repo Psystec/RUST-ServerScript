@@ -7,4 +7,5 @@ See the script in action:
 https://youtu.be/0xiFYaVKHNc
 
 Discord: https://discord.gg/EyRgFdA
+
 Github: https://github.com/Psystec/RUST-ServerScript
